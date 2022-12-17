@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    background: linear-gradient(blue,green,orange,red,pink,skyblue,gold,ghostwhite,salmon,sandybrown,greenyellow);
+}
+
+#hero img{
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid orange;
+}
+#hero{
+    text-align: center;    
+}
+
+#hero h2,h3{
+    font-family: serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px red;
+}
+.gift1 .img {
+    background-image: url("img.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.gift-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+.gift1 .img:hover{
+    background-image: url("https://i.pinimg.com/originals/8a/a4/85/8aa485ec51c09b7970a9f80b12795a28.gif");
+    background-size: cover;
+    
+}
+.gift2 .img {
+    background-image: url("img.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gift2 .img:hover{
+    background-image: url("200w.gif");
+    background-size: cover;
+}
+#footer{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    background-color: whitesmoke;
+}
+#footer span a{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
